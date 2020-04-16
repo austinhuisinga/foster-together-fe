@@ -1,11 +1,11 @@
 import React from 'react'
 import { renderWithReduxAndRouter as render } from '../../../utils/testHelpers'
 import FullOverlay from './TrainingOverlay'
-import TrainingThreeFour from './Train3.4'
+import Module34 from './module3-4'
 import { Formik, Form } from 'formik'
-import TrainingThreethree from './Train3.3'
-import TrainingThreeTwo from './Train3.2'
-import TrainingThreeOne from './Training3.1'
+import TrainingThreethree from './module3-3'
+import Module32 from './module3-2'
+import Module31 from './module3-1'
 import { Submit } from './TrainStyle'
 
 const initialValues = {
@@ -24,7 +24,7 @@ test('Module 3.4 renders', () => {
     <Formik initialValues={initialValues}>
       {props => (
         <Form>
-          <TrainingThreeFour {...props} />
+          <Module34 {...props} />
         </Form>
       )}
     </Formik>
@@ -48,7 +48,7 @@ test('Module 3.2 render', () => {
     <Formik initialValues={initialValues}>
       {props => (
         <Form>
-          <TrainingThreeTwo {...props} />
+          <Module32 {...props} />
         </Form>
       )}
     </Formik>
@@ -60,7 +60,7 @@ test('Module 3.1 render', () => {
     <Formik initialValues={initialValues}>
       {props => (
         <Form>
-          <TrainingThreeOne {...props} />
+          <Module31 {...props} />
         </Form>
       )}
     </Formik>
