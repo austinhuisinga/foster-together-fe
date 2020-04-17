@@ -17,7 +17,7 @@ import ModuleOne from './components/Training/module-1/module1-1'
 import ModuleTwo from './components/Training/module-2'
 import ModuleThree from './components/Training/module-3/TrainingOverlay'
 import ModuleFour from './components/Training/module-4'
-import ModuleFive from './components/Training/module-5/moduleFive'
+import ModuleFive from './components/Training/module-5/module5-1'
 import UserProfile from './components/AdminDash/Profile/User/UserProfile'
 
 function App() {
